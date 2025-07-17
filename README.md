@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -213,7 +212,7 @@
 
 <!-- Stretch Film (on order only)-->
 <div class="form-section">
-  <h2>Custom Size Bags</h2>
+  <h2>Stretch Film (on order onlt)</h2>
   <table id="customTable">
     <thead>
       <tr>
@@ -233,7 +232,7 @@
 
 <!-- Shrink Bag/Roll (on order only)-->
 <div class="form-section">
-  <h2>Custom Size Bags</h2>
+  <h2>Shrink Bag/Roll(on order)</h2>
   <table id="customTable">
     <thead>
       <tr>
@@ -253,7 +252,7 @@
 
 <!-- Courier Bag (on order only)-->
 <div class="form-section">
-  <h2>Custom Size Bags</h2>
+  <h2>Courier Bag (on order)</h2>
   <table id="customTable">
     <thead>
       <tr>
