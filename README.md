@@ -211,6 +211,66 @@
   <button type="button" onclick="addRow('customTable')">Add Custom Size</button>
 </div>
 
+<!-- Stretch Film (on order only)-->
+<div class="form-section">
+  <h2>Custom Size Bags</h2>
+  <table id="customTable">
+    <thead>
+      <tr>
+       <th>Size</th>
+       <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="text" name="customSize[]" placeholder="e.g., 6.5x9"></td>
+        <td><input type="number" name="customQty[]" min="1 box" placeholder=" Minimum 1 Box"></td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="button" onclick="addRow('customTable')">Add Custom Size</button>
+</div>
+
+<!-- Shrink Bag/Roll (on order only)-->
+<div class="form-section">
+  <h2>Custom Size Bags</h2>
+  <table id="customTable">
+    <thead>
+      <tr>
+       <th>Size</th>
+       <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="text" name="customSize[]" placeholder="e.g., 6.5x9"></td>
+        <td><input type="number" name="customQty[]" min="1 box" placeholder=" Min 1 Full Bag (approx 40kg)"></td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="button" onclick="addRow('customTable')">Add Custom Size</button>
+</div>
+
+<!-- Courier Bag (on order only)-->
+<div class="form-section">
+  <h2>Custom Size Bags</h2>
+  <table id="customTable">
+    <thead>
+      <tr>
+       <th>Size</th>
+       <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="text" name="customSize[]" placeholder="e.g., 6.5x9"></td>
+        <td><input type="number" name="customQty[]" min="1 box" placeholder=" Min 1 Full Bag (approx 40kg)"></td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="button" onclick="addRow('customTable')">Add Custom Size</button>
+</div>
+
     <!-- More Material -->
     <div class="form-section">
       <h2>More Material</h2>
