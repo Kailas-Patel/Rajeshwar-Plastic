@@ -413,7 +413,7 @@
         document.getElementsByName('markaQty[]'));
 
       const encodedMsg = encodeURIComponent(message);
-      const whatsappNumber = "919323540085"; // Replace with your number
+      const whatsappNumber = "919594459534"; // Replace with your number
       const url = `https://wa.me/${whatsappNumber}?text=${encodedMsg}`;
       window.open(url, '_blank');
     }
