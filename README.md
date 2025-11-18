@@ -311,12 +311,12 @@
             <td>
               <select name="sutli[]">
                 <option value="">Select Brand</option>
-                <option>Neha (₹140/kg)</option>
-                <option>Packer (₹185/kg)</option>
-                <option>Dolphine (₹150/kg)</option>
-                <option>Kangaroo (₹85/kg)</option>
-                <option>Neha Gold (₹120/kg)</option>
-                <option>Wonder Pack (₹180/kg)</option>
+                <option>Neha </option>
+                <option>Packer </option>
+                <option>Dolphine </option>
+                <option>Kangaroo </option>
+                <option>Neha Gold </option>
+                <option>Wonder Pack </option>
               </select>
             </td>
             <td><input type="number" name="sutliQty[]" min="1"></td>
