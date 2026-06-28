@@ -386,15 +386,24 @@
       const phone = document.getElementById("phone").value;
       let message = `*RAJESHWAR PLASTIC ORDER*\n👤 Name: ${name}\n📞 Phone: ${phone}\n\n`;
 
-      const collectItems = (label, names, qtys) => {
-        let output = `🔹 *${label}*\n`;
-        for (let i = 0; i < names.length; i++) {
-          const item = names[i].value;
-          const qty = qtys[i].value;
-          if (item && qty) output += `• ${item} - ${qty}\n`;
-        }
-        return output + '\n';
-      };
+     const collectItems = (label, names, qtys) => {
+  let items = "";
+
+  for (let i = 0; i < names.length; i++) {
+    const item = names[i].value;
+    const qty = qtys[i].value;
+
+    if (item && qty) {
+      items += `• ${item} - ${qty}\n`;
+    }
+  }
+
+  if (items !== "") {
+    return `🔹 *${label}*\n${items}\n`;
+  }
+
+  return "";
+};
 
       message += collectItems('LD Bags',
         document.getElementsByName('ldSize[]'),
