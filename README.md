@@ -28,12 +28,15 @@
       margin-bottom: 15px;
     }
 
-.form-section {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
+.form-section h2 {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
 }
 
     table {
