@@ -91,9 +91,31 @@
       transition: background 0.3s ease;
     }
 
-    input[type="submit"]:hover {
-      background-color: #0056b3;
-    }
+    input[type="submit"] {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+select:focus,
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0,123,255,0.3);
+    transition: all 0.3s ease;
+}
   </style>
 </head>
 <body>
