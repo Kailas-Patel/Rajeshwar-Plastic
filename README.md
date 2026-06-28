@@ -177,6 +177,8 @@ input[type="tel"]:focus {
       <button type="button" onclick="addRow('ldTable')">Add LD Bag</button>
     </div>
 
+
+
     <!-- PP Bags -->
     <div class="form-section">
       <h2>PP Bags</h2>
@@ -213,6 +215,8 @@ input[type="tel"]:focus {
       <button type="button" onclick="addRow('ppTable')">Add PP Bag</button>
     </div>
 
+    
+
 <!-- Custom Size Bags -->
 <div class="form-section">
   <h2>Custom Size Bags</h2>
@@ -235,6 +239,8 @@ input[type="tel"]:focus {
   <button type="button" onclick="addRow('customTable')">Add Custom Size</button>
 </div>
 
+
+
 <!-- Stretch Film (on order only)-->
 <div class="form-section">
   <h2>Stretch Film (on order onlt)</h2>
@@ -254,6 +260,8 @@ input[type="tel"]:focus {
   </table>
   <button type="button" onclick="addRow('customTable')">Add Custom Size</button>
 </div>
+
+
 
 <!-- Shrink Bag/Roll (on order only)-->
 <div class="form-section">
@@ -275,6 +283,8 @@ input[type="tel"]:focus {
   <button type="button" onclick="addRow('customTable')">Add Custom Size</button>
 </div>
 
+
+
 <!-- Courier Bag (on order only)-->
 <div class="form-section">
   <h2>Courier Bag (on order)</h2>
@@ -294,6 +304,8 @@ input[type="tel"]:focus {
   </table>
   <button type="button" onclick="addRow('customTable')">Add Custom Size</button>
 </div>
+
+
 
     <!-- More Material -->
     <div class="form-section">
@@ -326,6 +338,8 @@ input[type="tel"]:focus {
       <button type="button" onclick="addRow('materialTable')">Add Material</button>
     </div>
 
+
+
     <!-- Plastic Sutli -->
     <div class="form-section">
       <h2>Plastic Sutli</h2>
@@ -348,6 +362,9 @@ input[type="tel"]:focus {
       </table>
       <button type="button" onclick="addRow('sutliTable')">Add Sutli</button>
     </div>
+
+
+    
     <!-- Separate Colors -->
 <div class="form-section">
   <h2>Separate Colors</h2>
@@ -384,6 +401,8 @@ input[type="tel"]:focus {
   </table>
   <button type="button" onclick="addRow('colorTable')">Add Color</button>
 </div>
+
+
     <!-- Submit -->
     <div class="submit-button">
       <input type="submit" value="Submit Order via WhatsApp">
