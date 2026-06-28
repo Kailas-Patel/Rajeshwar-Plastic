@@ -29,19 +29,11 @@
     }
 
 .form-section {
-    position: relative;
-    padding-top: 35px;
-}
-
-.form-section h2 {
-    position: absolute;
-    top: -15px;
-    left: 20px;
-    background: #007bff;
-    color: white;
-    padding: 8px 20px;
-    border-radius: 20px;
-    font-size: 18px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
 
     table {
