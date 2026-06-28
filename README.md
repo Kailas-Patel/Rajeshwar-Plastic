@@ -340,8 +340,6 @@ input[type="tel"]:focus {
                 <option>Packer </option>
                 <option>Dolphine </option>
                 <option>Kangaroo </option>
-                <option>Neha Gold </option>
-                <option>Wonder Pack </option>
               </select>
             </td>
             <td><input type="number" name="sutliQty[]" min="1"></td>
@@ -449,6 +447,9 @@ input[type="tel"]:focus {
       const encodedMsg = encodeURIComponent(message);
       const whatsappNumber = "919594459534"; // Replace with your number
       const url = `https://wa.me/${whatsappNumber}?text=${encodedMsg}`;
+
+      alert("Thank you for choosing Rajeshwar Plastic.\nYou will now be redirected to WhatsApp to confirm your order.");
+
       window.open(url, '_blank');
     }
   </script>
