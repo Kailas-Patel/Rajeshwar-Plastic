@@ -28,13 +28,13 @@
       margin-bottom: 15px;
     }
 
-    .form-section {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      margin-bottom: 30px;
-    }
+   .form-section h2 {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: -20px -20px 20px -20px;
+}
 
     table {
       width: 100%;
